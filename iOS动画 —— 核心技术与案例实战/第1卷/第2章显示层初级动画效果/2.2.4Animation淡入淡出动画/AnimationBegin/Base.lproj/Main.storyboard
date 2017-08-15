@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10102" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Ly1-7T-euO">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10080"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="yYz-am-9gP">
+            <objects>
+                <viewController id="Ly1-7T-euO" customClass="ViewController" customModule="AnimationBegin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oy0-tx-RuM"/>
+                        <viewControllerLayoutGuide type="bottom" id="xor-Tp-Zql"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="T18-BK-zAX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login" translatesAutoresizingMaskIntoConstraints="NO" id="wbw-sK-tdf">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wbw-sK-tdf" firstAttribute="centerX" secondItem="T18-BK-zAX" secondAttribute="centerX" id="1YI-Gu-7Wi"/>
+                            <constraint firstItem="wbw-sK-tdf" firstAttribute="centerY" secondItem="T18-BK-zAX" secondAttribute="centerY" id="K4W-dk-iBc"/>
+                            <constraint firstItem="wbw-sK-tdf" firstAttribute="height" secondItem="T18-BK-zAX" secondAttribute="height" id="s19-C6-dMm"/>
+                            <constraint firstItem="wbw-sK-tdf" firstAttribute="width" secondItem="T18-BK-zAX" secondAttribute="width" id="u5o-xr-zj5"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PXH-X8-ekJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="375" y="-621"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="login" width="640" height="1136"/>
+    </resources>
+</document>
